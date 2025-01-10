@@ -3,7 +3,7 @@
   <parent>
     <groupId>org.nuxeo</groupId>
     <artifactId>nuxeo-parent</artifactId>
-    <version>2023.0.63</version>
+    <version>2023.19-SNAPSHOT</version>
   </parent>
 
   <groupId>org.nuxeo.web.ui</groupId>
@@ -80,11 +80,11 @@
         <enabled>true</enabled>
       </releases>
       <snapshots>
-        <updatePolicy>always</updatePolicy>
+        <updatePolicy>never</updatePolicy>
         <enabled>true</enabled>
       </snapshots>
     </repository>
-    <repository>
+    <!--repository>
       <id>maven-internal</id>
       <url>https://packages.nuxeo.com/repository/maven-internal/</url>
       <releases>
@@ -94,7 +94,7 @@
         <updatePolicy>always</updatePolicy>
         <enabled>true</enabled>
       </snapshots>
-    </repository>
+    </repository-->
   </repositories>
 
   <pluginRepositories>
